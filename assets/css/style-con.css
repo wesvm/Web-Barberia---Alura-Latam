@@ -1,0 +1,135 @@
+.block-title-contact {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #333;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.contact-content {
+    position: relative;
+    padding: 10px 70px 30px;
+    height: auto;
+    overflow: hidden;
+}
+
+.contact-details, .contact-icon {
+    display: table-cell;
+}
+
+.contact-details h5, .contact-details p {
+    margin-bottom: 0;  
+}
+
+.contact-details p{
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contact-details h5 {
+    font-size: 17px;
+    line-height: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: start;
+}
+
+.contact-info {
+    display: table;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.contact-icon {
+    width: 60px;
+    font-size: 30px;
+    color: #666;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+section{
+    display: block;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+#contact_form .form-control {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #727272;
+    border-radius: 0;
+    width: 100%;
+    font-size: 14px;
+    transition: all .3s;
+}
+
+#contact_form textarea {
+    resize: none;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 12px 28px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    color: #FFF;
+    background-color: #3c7c8e;
+    letter-spacing: 2px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #1e5463;
+    transform: scale(1.05);
+}
+

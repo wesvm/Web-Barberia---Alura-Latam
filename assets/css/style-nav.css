@@ -1,0 +1,40 @@
+.inline-menu-container {
+    background: #edf2fa;
+    display: flex;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.inline-menu-nav{
+    width: 100%;
+    display: inline-block;
+    align-self: center;
+}
+
+.inline-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.inline-menu li {
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: -5px;
+    padding: 0 6%;
+    color: rgb(0, 0, 0);
+}
+
+.inline-menu-container ul li a{
+    padding: 2px ;
+}
+
+.inline-menu-container ul li a:hover{
+    border-bottom: 2px solid black ;
+}
