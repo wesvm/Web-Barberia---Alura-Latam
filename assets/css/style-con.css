@@ -1,11 +1,16 @@
+.bg-25{
+    background-color: #252525;
+}
+
 .block-title-contact {
-    font-size: 24px;
+    font-size: 30px;
     text-transform: uppercase;
-    color: #333;
     padding-bottom: 15px;
     border-bottom: 1px solid #ddd;
+    font-family: 'Sancreek', cursive;
     margin-bottom: 30px;
-    font-weight: 600;
+    font-weight: 100;
+    color: white;
 }
 
 .col-md-6 {
@@ -33,6 +38,7 @@
 
 .contact-details h5, .contact-details p {
     margin-bottom: 0;  
+    color: white;
 }
 
 .contact-details p{
@@ -42,14 +48,16 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    
 }
 
 .contact-details h5 {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 32px;
     margin-top: 0;
     margin-bottom: 0;
     text-align: start;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contact-info {
@@ -59,9 +67,9 @@
 }
 
 .contact-icon {
-    width: 60px;
-    font-size: 30px;
-    color: #666;
+    width: 50px;
+    font-size: 50px;
+    color: white;
     text-align: center;
     vertical-align: middle;
 }
@@ -100,7 +108,6 @@ form {
     line-height: 1.25;
     color: #495057;
     background-color: #fff;
-    background-image: none;
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: 0.25rem;
@@ -121,7 +128,7 @@ form {
     font-weight: 600;
     position: relative;
     color: #FFF;
-    background-color: #3c7c8e;
+    background-color: #366a79;
     letter-spacing: 2px;
     overflow: hidden;
     cursor: pointer;

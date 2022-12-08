@@ -108,5 +108,6 @@ h6{
 
 .product-header h5 {
     text-transform: uppercase;
-    font-size: 18px;
+    font-family: 'Sancreek', cursive;
+    font-size: 30px;
 }

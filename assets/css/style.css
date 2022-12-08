@@ -26,33 +26,52 @@ ul{
 
 
 .about-us{
-    padding: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #252525;
 }
 
 .block-content {
-    margin: 0 0 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #252525;
 }
 
-.block-title {
-    font-size: 20px;
-    color: #333;
-    padding-bottom: 5px;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    margin-bottom: 10px;
-    font-weight: 600;
+.block-title h3{
+    font-size: 28px;
+    color: white;
+    font-weight: 100;
     text-align: justify;
+    font-family: 'Sancreek', cursive;
+}
+
+.block-title hr{
+    background-color: white;
+    width: 300px;
+}
+
+.block-title p{
+    padding-top: 2em;
+    color: white;
+    font-size: 18px;
 }
 
 .card{
-    background-color: white;
-    padding: 30px; /* Elementos que estan dentro */
+    background-color: #2c2c2c;
+    padding: 50px; /* Elementos que estan dentro */
+    box-shadow: 0px 0px 20px 3px #2e2e2e;
 }
 
 .item-card{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: black;
+    box-shadow: 0px 0px 20px 3px #2e2e2e;
 }
 
 .text-card, .img-card{
@@ -62,21 +81,38 @@ ul{
 
 .text-card p{
     font-style: italic;
-    font-weight: bold;
+    font-weight: normal;
+}
+
+.dif-card h3{
+    font-size: 28px;
+    color: white;
+    font-weight: 100;
+    text-align: start;
+    font-family: 'Sancreek', cursive;
+}
+
+.dif-card hr{
+    background-color: white;
+    width: 170px;
+}
+
+.dif-card p{
+    padding-top: 25px;
+    color: white;
+    font-size: 21px;
+    font-weight: 100;
 }
 
 .container-footer {
-    background: #fff;
+    background: #232526;
     border-top: 5px solid rgba(0, 0, 0, 0.12);
     padding: 2em;
 }
 
-#section{
-    background: #eaeaea;
-}
 
 .font-small {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .text-muted{
@@ -94,4 +130,16 @@ ul{
     float: right!important;
 }
 
+.inline-b{
+    display: flex;
+    align-items: center;
+}
 
+/*@media screen and (max-width:480px) {
+    body .section-banner{
+        width: 100%;
+    }
+    nav{
+        position: static;
+    }
+}*/

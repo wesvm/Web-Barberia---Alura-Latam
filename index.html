@@ -12,61 +12,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style-nav.css">
-
+    <link rel="stylesheet" href="assets/css/style-img-banner.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sancreek&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sancreek&display=swap');
+    </style>
 </head>
 
 <body>
 
-    <header>
-        <nav class="inline-menu-container">
-            <div>
-                <a href="index.html"><img src="assets/imgs/products/logo.png" alt="alura-logo" width="100px"></a>
-            </div>
-            <div class="inline-menu-nav">
-                <ul class="inline-menu">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="#nosotros">Nosotros</a> </li>
-                    <li><a href="productos.html">Productos</a> </li>
-                    <li><a href="contacto.html">Contacto</a> </li>
-                </ul>
-            </div>
-        </nav>
+    <div class="section-banner">
+        <div class="banner-bg">
+            <header>
+                <nav class="inline-menu-container">
+                    <div>
+                        <a href="index.html"><img src="assets/imgs/products/logo-blanco.png" alt="alura-logo"
+                                width="100px"></a>
+                    </div>
+                    <div class="inline-menu-nav">
+                        <ul class="inline-menu">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="#nosotros">Nosotros</a> </li>
+                            <li><a href="productos.html">Productos</a> </li>
+                            <li><a href="contacto.html">Contacto</a> </li>
+                        </ul>
+                    </div>
+                </nav>
 
-        <h1>Barberia Alura</h1>
-        <hr>
-        <br>
-    </header>
+                <div class="title-logo">
+                    <h1>Barberia Alura</h1>
+                    <hr>
+                    <img src="assets/imgs/products/logo-blanco.png" alt="alura-logo" width="200px">
+                    <div class="text-banner">
+                        <p>Inspirados en la antigua escuela de barbería clásica, pero con un toque más contemporáneo, en
+                            Barberia Alura Latam nos esforzamos en brindarte un servicio superior que garantice lograr
+                            tu mejor imagen. Un equipo de barberos experimentados y esmerados en darte una cálida
+                            atención, complementado con un ambiente moderno, con buena música y bebidas de cortesía,
+                            permitirán que te relajes y puedas vivir una experiencia barber única.</p>
+                    </div>
 
-    <div class="about-us" id="section">
-        <div class="block-content" align="center">
-            <img src="assets/imgs/banner.jpg" alt="banner-alura" height="300px">
-
+                </div>
+            </header>
         </div>
+    </div>
 
-        <div class="block-content" id="nosotros">
-            <div class="card">
-                <h3 class="block-title">Sobre la Barbería Alura</h3>
-                <p>Ubicada en el corazón de la ciudad, la Barbería Alura trae para el mercado lo que hay de mejor para
-                    su
-                    cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos
-                    clientes diariamente. </p>
+    <div class="about-us" id="nosotros">
+        <div class="inline-b">
+            <div class="block-content">
+                <div class="card block-title">
+                    <h3>Sobre la Barbería Alura</h3>
+                    <hr>
+                    <p>Ubicada en el corazón de la ciudad, la Barbería Alura trae para el mercado lo que hay de mejor
+                        para
+                        su
+                        cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista
+                        nuevos
+                        clientes diariamente. </p>
+                </div>
+
             </div>
 
-        </div>
-
-        <div class="block-content">
-            <div class="card">
-                <h3 class="block-title">Nuestra misión es:</h3>
-                <p>"Proporcionar autoestima y calidad de vida a nuestros clientes".</p>
+            <div class="block-content">
+                <div class="card block-title">
+                    <h3>Nuestra misión es:</h3>
+                    <hr>
+                    <p>"Proporcionar autoestima y calidad de vida a nuestros clientes".</p>
+                </div>
             </div>
         </div>
 
         <div class="block-content">
             <div class="item-card">
                 <div class="img-card">
-                    <img src="assets/imgs/diferenciales.jpg" alt="dif-alura" height="300px">
+                    <img src="assets/imgs/diferenciales.jpg" alt="dif-alura" height="500px">
                 </div>
-                <div class="text-card">
+                <div class="text-card dif-card">
+                    <h3>Diferenciales</h3>
+                    <hr>
                     <p> Ofrecemos profesionales experimentados que están constantemente observando los cambios y
                         movimiento en el
                         mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El
@@ -76,9 +100,34 @@
                     </p>
                 </div>
             </div>
+        </div>
 
+        <div class="inline-b">
+            <div class="block-content">
+                <div class="card block-title">
+                    <h3>Nuestra Ubicación:</h3>
+                    <hr>
+                    <p>Nuestro establecimiento esta ubicado en el corazón de la ciudad</p>
+                    <br>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3802.0902234760033!2d-71.3474618496329!3d-17.64588532584621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91445b0567f0b37b%3A0x2b66004b1b0ad6f3!2sPlaza%20de%20Armas%2C%20Ilo%2018601!5e0!3m2!1sen!2spe!4v1670366087009!5m2!1sen!2spe"
+                        width="490" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="block-content">
+                <div class="card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/P8sYrpKI53I"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
 
         </div>
+
+
     </div>
 
     <footer class="container-footer">

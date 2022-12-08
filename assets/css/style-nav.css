@@ -1,5 +1,5 @@
 .inline-menu-container {
-    background: #edf2fa;
+    background: #00000000;
     display: flex;
     padding-right: 50px;
     padding-left: 50px;
@@ -24,17 +24,48 @@
 
 .inline-menu li {
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 200;
     line-height: 40px;
     margin-top: -5px;
     padding: 0 6%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .inline-menu-container ul li a{
     padding: 2px ;
+    color: white;
+    font-family: 'Sancreek', cursive;
+    font-size: 20px;
 }
 
 .inline-menu-container ul li a:hover{
-    border-bottom: 2px solid black ;
+    border-bottom: 2px solid rgb(255, 255, 255) ;
+}
+
+.title-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-logo h1{
+    color: white;
+    font-family: 'Sancreek', cursive;
+    font-weight: 100;
+}
+
+.title-logo hr{
+    background-color: white;
+    width: 150px;
+}
+
+.text-banner{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    text-align: center;
 }
