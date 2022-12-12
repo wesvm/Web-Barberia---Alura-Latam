@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+body::-webkit-scrollbar{
+    width: 12px;
+    background-color: #232526;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 10px;
+}
+
 .container-1{
     padding: 0 0;
     height: 47em;
